@@ -1,7 +1,7 @@
 // Lesson 10 - Values and Variables 
 /* 
-  Notes 
-  ------
+  NOTE: 
+  -----
 # Variable names can't start with numbers
 # Variable names can only use underscores and dollar signs (symbols)
 # To use new / function variables, use _ or $ before hand ($function)
@@ -36,8 +36,8 @@ console.log(myFirstJob);
 
 // Lesson 11 - Data Types
 /*
-  Notes
-  ------
+  NOTE:
+  -----
 # Number - Floating point numbers, used for decimals and integers
 # String - Sequence of characters, used for text
 # Boolean - Logical type that can only be true or false, used for taking decisions
@@ -47,6 +47,7 @@ console.log(myFirstJob);
 # BigInt - Larger integers than the Number type
 */
 
+/*
 let javascriptIsFun = true;
 console.log(javascriptIsFun);
 
@@ -66,3 +67,25 @@ year = 1991;
 console.log(typeof year);
 
 console.log(typeof null);
+*/
+
+// Lesson 12 - let, const and var
+/*
+  NOTE:
+  -----
+# Values in a const cannot be changed
+# EXAMPLE: Someone's age changes each year but the year they were born can never change
+# Const variables cannot be empty
+# Use const on default, only use let if certain the variable value will change
+# Have as little variable mutations as possible as it can cause bugs 
+# Var should be avoided - old way to define variables before ES6.
+*/
+
+/*
+let age = 30;
+age = 31;
+
+const birthYear = 1991;
+// birthYear = 1990;
+*/
+
